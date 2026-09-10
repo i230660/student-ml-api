@@ -8,7 +8,7 @@ VERSION = "1.0.0"
 @app.route("/health", methods=["GET"])
 def health():
     return jsonify({
-        "status": "healthy",
+        "status": "wrong",
         "application": "student-ml-api",
         "version": VERSION
     })
