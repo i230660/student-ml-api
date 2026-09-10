@@ -10,7 +10,7 @@ def health():
     return jsonify({
         "status": "healthy",
         "application": "student-ml-api",
-        "version": VERSION
+        "version": VERSION,
         "model_version": "model-1"
 
     })
